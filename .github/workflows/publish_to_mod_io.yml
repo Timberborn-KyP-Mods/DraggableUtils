@@ -34,21 +34,21 @@ jobs:
         run: mkdir ModIoPackage
         
       - name: Copy Mod
-        run: cp ./CustomNameList/bin/Release/netstandard2.1/CustomNameList.dll ModIoPackage
+        run: cp ./DraggableUtils/bin/Release/netstandard2.1/DraggableUtils.dll ModIoPackage
         
       - name: Copy Mod.ci.json
-        run: cp ./CustomNameList/package/mod.ci.json ModIoPackage/mod.json
+        run: cp ./DraggableUtils/package/mod.ci.json ModIoPackage/mod.json
         
       - name: Upload mod to Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: CustomNameList_${{ github.event.inputs.mod_version }}
+          name: DraggableUtils_${{ github.event.inputs.mod_version }}
           path: ModIoPackage
         
       - name: Zip Release
         uses: TheDoctor0/zip-release@0.6.2
         with:
-          filename: CustomNameList_${{ github.event.inputs.mod_version }}.zip
+          filename: DraggableUtils_${{ github.event.inputs.mod_version }}.zip
           path: "./"
           directory: ModIoPackage
           
@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v3.0.0
         with:
           name: Test
-          path: ModIoPackage/CustomNameList_${{ github.event.inputs.mod_version }}.zip
+          path: ModIoPackage/DraggableUtils_${{ github.event.inputs.mod_version }}.zip
           
       - uses: nickelc/upload-to-modio@v2.0.0
         with:
@@ -64,6 +64,6 @@ jobs:
           game: 3659
           mod: 2669290
           version: ${{ github.event.inputs.mod_version }}
-          path: ModIoPackage/CustomNameList_${{ github.event.inputs.mod_version }}.zip
+          path: ModIoPackage/DraggableUtils_${{ github.event.inputs.mod_version }}.zip
           active: true
           changelog: "-"
