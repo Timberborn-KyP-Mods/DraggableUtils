@@ -36,8 +36,14 @@ jobs:
       - name: Copy Mod
         run: cp ./DraggableUtils/bin/Release/netstandard2.1/DraggableUtils.dll ModIoPackage
         
-      - name: Copy Mod.ci.json
-        run: cp ./DraggableUtils/package/mod.ci.json ModIoPackage/mod.json
+      - name: Copy Everything to modIO package
+        run: cp -r ./DraggableUtils/package/. ModIoPackage
+        
+      - name: Remove mod.json
+        run: rm ModIoPackage/mod.json
+        
+      - name: Rename mod.ci.json to mod.json
+        run: mv ModIoPackage/mod.ci.json ModIoPackage/mod.json
         
       - name: Upload mod to Artifact
         uses: actions/upload-artifact@v3.0.0
