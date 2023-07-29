@@ -1,0 +1,8 @@
+{
+  "Name": "DraggableUtils",                    
+  "Version": "1.0.0",
+  "UniqueId": "kyp.draggable_utils",
+  "MinimumApiVersion": "0.5.3",
+  "MinimumGameVersion": "0.3.5.2",
+  "EntryDll": "DraggableUtils.dll"
+}
