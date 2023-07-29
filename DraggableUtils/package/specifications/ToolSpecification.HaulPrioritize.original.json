@@ -1,0 +1,14 @@
+{
+    "Id": "HaulPrioritize",
+    "GroupId": "DraggableUtils",
+    "Type": "HaulPrioritizeTool",
+    "Order": 0,
+    "NameLocKey": "Kyp.HaulPrioritizeTool.Title",
+    "DescriptionLocKey": "Kyp.HaulPrioritizeTool.Description",
+    "Icon": "DraggableUtils/UI_Buttons/hauler_button",
+    "DevMode": false,
+    "Hidden": false,
+    "ToolInformation": {
+        "PrioritizedLocKey": "Kyp.HaulPrioritizeTool.Prioritized"
+    }
+}

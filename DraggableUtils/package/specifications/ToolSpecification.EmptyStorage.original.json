@@ -1,0 +1,14 @@
+{
+    "Id": "EmptyStorage",
+    "GroupId": "DraggableUtils",
+    "Type": "EmptyStorageTool",
+    "Order": 0,
+    "NameLocKey": "Kyp.EmptyStorageTool.Title",
+    "DescriptionLocKey": "Kyp.EmptyStorageTool.Description",
+    "Icon": "DraggableUtils/UI_Buttons/storage_empty_button",
+    "DevMode": false,
+    "Hidden": false,
+    "ToolInformation": {
+        "PrioritizedLocKey": "Kyp.EmptyStorageTool.Prioritized"
+    }
+}

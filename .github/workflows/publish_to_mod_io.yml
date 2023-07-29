@@ -62,7 +62,7 @@ jobs:
         with:
           token: ${{ secrets.MODIO_TOKEN }}
           game: 3659
-          mod: 2787564
+          mod: 2669290
           version: ${{ github.event.inputs.mod_version }}
           path: ModIoPackage/CustomNameList_${{ github.event.inputs.mod_version }}.zip
           active: true

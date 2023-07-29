@@ -7,7 +7,6 @@
         <Authors>TheBloodEyes</Authors>
         <PackageProjectUrl>https://github.com/Timberborn-KyP-Mods</PackageProjectUrl>
         <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
-        <RootNamespace>CustomNameList</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup>

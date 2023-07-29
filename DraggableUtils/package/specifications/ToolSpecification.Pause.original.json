@@ -1,0 +1,14 @@
+{
+    "Id": "Pause",
+    "GroupId": "DraggableUtils",
+    "Type": "PauseTool",
+    "Order": 0,
+    "NameLocKey": "Kyp.PauseTool.Title",
+    "DescriptionLocKey": "Kyp.PauseTool.Description",
+    "Icon": "DraggableUtils/UI_Buttons/pause_button",
+    "DevMode": false,
+    "Hidden": false,
+    "ToolInformation": {
+        "PrioritizedLocKey": "Kyp.PauseTool.Prioritized"
+    }
+}

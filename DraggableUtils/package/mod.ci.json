@@ -4,5 +4,13 @@
   "UniqueId": "kyp.draggable_utils",
   "MinimumApiVersion": "0.6.0",
   "MinimumGameVersion": "0.4.9",
-  "EntryDll": "DraggableUtils.dll"
+  "EntryDll": "DraggableUtils.dll",
+  "Assets": [
+    {
+      "Prefix": "DraggableUtils",
+      "Scenes": [
+        "InGame"
+      ]
+    }
+  ]
 }

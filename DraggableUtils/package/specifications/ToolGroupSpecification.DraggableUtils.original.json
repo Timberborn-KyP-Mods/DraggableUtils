@@ -1,0 +1,11 @@
+{
+  "Id": "DraggableUtils",
+  "Order": 100,
+  "Layout": "Blue",
+  "Icon": "DraggableUtils/UI_Buttons/group_button",
+  "NameLocKey": "Kyp.ToolGroups.DraggableUtils",
+  "FallbackGroup": false,
+  "GroupInformation": {
+    "BottomBarSection": 0
+  }
+}
